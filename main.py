@@ -17,12 +17,7 @@ from telegram.ext import (
 )
 
 # ==================== CONFIG ====================
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-if not BOT_TOKEN:
-    raise RuntimeError(
-        "BOT_TOKEN muhit o'zgaruvchisi topilmadi. "
-        "Botni ishga tushirishdan oldin BOT_TOKEN ni environment'ga o'rnating."
-    )
+BOT_TOKEN = os.environ.get("8947239424:AAHQM0bfFsYJLeB5ty_eN7J9iXxLn40VYBI")
 ADMIN_ID = 6222096713
 ADMIN_USERNAME = "@Reyimberganov_i"
 CHANNEL_USERNAME = "@animelar_iqo"
